@@ -17,7 +17,7 @@ main()
     printf("xv6 kernel is booting\n");
     printf("\n");
     kinit();         // physical page allocator
-    kfreespace();
+    printf("xv6 free pages: %d\n\n", kfreespace());
     kvminit();       // create kernel page table
     kvminithart();   // turn on paging
     procinit();      // process table

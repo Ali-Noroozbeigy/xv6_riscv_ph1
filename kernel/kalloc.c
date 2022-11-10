@@ -81,7 +81,7 @@ kalloc(void)
   return (void*)r;
 }
 
-double kfreespace(void){
+int kfreespace(void){
     volatile int free_pages_count = 0;
 
     struct run *current;
@@ -95,7 +95,5 @@ double kfreespace(void){
     }
     release(&kmem.lock);
 
-    double free_space_MB = free_pages_count * PGSIZE / (float) (1024 * 1024) ;
-    // printf("%p", free_space_MB);
-    return free_space_MB;
+    return free_pages_count;
 }
