@@ -80,3 +80,23 @@ kalloc(void)
     memset((char*)r, 5, PGSIZE); // fill with junk
   return (void*)r;
 }
+
+float kfreespace(void){
+    int free_pages_count = 0;
+
+    struct run *current;
+
+    acquire(&kmem.lock);
+    current = kmem.freelist;
+
+    while (current != 0){
+        free_pages_count++;
+        current = current->next;
+    }
+    release(&kmem.lock);
+
+    // find free space in MB
+    float free_space_MB = (free_pages_count * PGSIZE) / (1024 * 1024 * 1.0);
+
+    return free_space_MB;
+}
