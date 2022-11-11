@@ -83,4 +83,5 @@ add_executable(xv6_riscv_ph1
         user/zombie.c
         LICENSE
         Makefile
-        README)
+        README
+        user/kfreemem.c)

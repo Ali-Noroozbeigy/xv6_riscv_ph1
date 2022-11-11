@@ -30,6 +30,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/xv6_riscv_ph1.dir/user/grep.c.o"
   "CMakeFiles/xv6_riscv_ph1.dir/user/grind.c.o"
   "CMakeFiles/xv6_riscv_ph1.dir/user/init.c.o"
+  "CMakeFiles/xv6_riscv_ph1.dir/user/kfreemem.c.o"
   "CMakeFiles/xv6_riscv_ph1.dir/user/kill.c.o"
   "CMakeFiles/xv6_riscv_ph1.dir/user/ln.c.o"
   "CMakeFiles/xv6_riscv_ph1.dir/user/ls.c.o"

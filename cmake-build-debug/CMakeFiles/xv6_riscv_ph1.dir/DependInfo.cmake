@@ -39,6 +39,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/ali/xv6_riscv_ph1/user/grep.c" "/home/ali/xv6_riscv_ph1/cmake-build-debug/CMakeFiles/xv6_riscv_ph1.dir/user/grep.c.o"
   "/home/ali/xv6_riscv_ph1/user/grind.c" "/home/ali/xv6_riscv_ph1/cmake-build-debug/CMakeFiles/xv6_riscv_ph1.dir/user/grind.c.o"
   "/home/ali/xv6_riscv_ph1/user/init.c" "/home/ali/xv6_riscv_ph1/cmake-build-debug/CMakeFiles/xv6_riscv_ph1.dir/user/init.c.o"
+  "/home/ali/xv6_riscv_ph1/user/kfreemem.c" "/home/ali/xv6_riscv_ph1/cmake-build-debug/CMakeFiles/xv6_riscv_ph1.dir/user/kfreemem.c.o"
   "/home/ali/xv6_riscv_ph1/user/kill.c" "/home/ali/xv6_riscv_ph1/cmake-build-debug/CMakeFiles/xv6_riscv_ph1.dir/user/kill.c.o"
   "/home/ali/xv6_riscv_ph1/user/ln.c" "/home/ali/xv6_riscv_ph1/cmake-build-debug/CMakeFiles/xv6_riscv_ph1.dir/user/ln.c.o"
   "/home/ali/xv6_riscv_ph1/user/ls.c" "/home/ali/xv6_riscv_ph1/cmake-build-debug/CMakeFiles/xv6_riscv_ph1.dir/user/ls.c.o"

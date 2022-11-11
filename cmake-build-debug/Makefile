@@ -873,6 +873,30 @@ user/init.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/xv6_riscv_ph1.dir/build.make CMakeFiles/xv6_riscv_ph1.dir/user/init.c.s
 .PHONY : user/init.c.s
 
+user/kfreemem.o: user/kfreemem.c.o
+.PHONY : user/kfreemem.o
+
+# target to build an object file
+user/kfreemem.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xv6_riscv_ph1.dir/build.make CMakeFiles/xv6_riscv_ph1.dir/user/kfreemem.c.o
+.PHONY : user/kfreemem.c.o
+
+user/kfreemem.i: user/kfreemem.c.i
+.PHONY : user/kfreemem.i
+
+# target to preprocess a source file
+user/kfreemem.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xv6_riscv_ph1.dir/build.make CMakeFiles/xv6_riscv_ph1.dir/user/kfreemem.c.i
+.PHONY : user/kfreemem.c.i
+
+user/kfreemem.s: user/kfreemem.c.s
+.PHONY : user/kfreemem.s
+
+# target to generate assembly for a file
+user/kfreemem.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xv6_riscv_ph1.dir/build.make CMakeFiles/xv6_riscv_ph1.dir/user/kfreemem.c.s
+.PHONY : user/kfreemem.c.s
+
 user/kill.o: user/kill.c.o
 .PHONY : user/kill.o
 
@@ -1287,6 +1311,9 @@ help:
 	@echo "... user/init.o"
 	@echo "... user/init.i"
 	@echo "... user/init.s"
+	@echo "... user/kfreemem.o"
+	@echo "... user/kfreemem.i"
+	@echo "... user/kfreemem.s"
 	@echo "... user/kill.o"
 	@echo "... user/kill.i"
 	@echo "... user/kill.s"

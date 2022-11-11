@@ -269,6 +269,9 @@
 		<Unit filename="/home/ali/xv6_riscv_ph1/user/initcode.S">
 			<Option target="xv6_riscv_ph1"/>
 		</Unit>
+		<Unit filename="/home/ali/xv6_riscv_ph1/user/kfreemem.c">
+			<Option target="xv6_riscv_ph1"/>
+		</Unit>
 		<Unit filename="/home/ali/xv6_riscv_ph1/user/kill.c">
 			<Option target="xv6_riscv_ph1"/>
 		</Unit>
